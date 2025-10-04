@@ -1,9 +1,3 @@
-#include <iostream>
+#include<unistd.h>
+int main(){return write(1,"Hello world\n",12)&0;}
 
-using namespace std;
-
-int main()
-{
-    cout << "Hello world" << endl;
-    return 0;
-}
